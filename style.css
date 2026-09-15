@@ -9,8 +9,8 @@ body {
 header {
   text-align: center;
   padding: 5rem 1rem;
-  background: url('https://placehold.co/1600x500?text=Banner') center/cover no-repeat;
-  color: white;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+              url('banner.jpg') center/cover no-repeat;
 }
 
 nav {
