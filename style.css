@@ -10,7 +10,7 @@ header {
   text-align: center;
   padding: 5rem 1rem;
   background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-              url('banner.jpg') center/cover no-repeat;
+              url('banner.PNG') center/cover no-repeat;
 }
 
 nav {
