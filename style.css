@@ -49,15 +49,28 @@ section {
   padding: 0 1rem;
 }
 
-.project {
+#projects {
+  max-width: 1000px;
+}
+
+.project-row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
   margin-bottom: 2rem;
 }
 
-.project img {
-  max-width: 100%;
-  border-radius: 8px;
+.project {
+  flex: 1 1 250px;
+  max-width: 300px;
+  text-align: center;
 }
 
+.project img {
+  width: 100%;
+  border-radius: 8px;
+}
 footer {
   text-align: center;
   padding: 2rem;
