@@ -37,7 +37,6 @@ html {
 nav {
   display: flex;
   justify-content: space-evenly;
-@@ -47,35 +52,36 @@
   max-width: 800px;
   margin: 2rem auto;
   padding: 0 1rem;
