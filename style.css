@@ -37,17 +37,10 @@ html {
 nav {
   display: flex;
   justify-content: space-evenly;
-  max-width: 1000px;
-  width: 90%;
+  max-width: 800px;
   margin: 2rem auto;
-  padding: 1rem;
-  background: #333;
+  padding: 0 1rem;
   scroll-margin-top: 2rem;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
 }
 
 
