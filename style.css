@@ -39,14 +39,25 @@ nav {
   justify-content: space-evenly;
   max-width: 800px;
   margin: 2rem auto;
-  padding: 0 1rem;
+  padding: 1rem;
+  background: #333;
   scroll-margin-top: 2rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ccc;
 }
 
 #projects {
   max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
 }
-
 .project-row {
   display: flex;
   justify-content: center;
