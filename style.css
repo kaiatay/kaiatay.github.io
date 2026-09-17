@@ -37,7 +37,8 @@ html {
 nav {
   display: flex;
   justify-content: space-evenly;
-  max-width: 800px;
+  max-width: 1000px;
+  width: 90%;
   margin: 2rem auto;
   padding: 1rem;
   background: #333;
@@ -49,15 +50,19 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover {
-  color: #ccc;
+
+section {
+  max-width: 800px;
+  width: 90%;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  scroll-margin-top: 2rem;
 }
 
 #projects {
   max-width: 1000px;
-  margin: 2rem auto;
-  padding: 0 1rem;
 }
+
 .project-row {
   display: flex;
   justify-content: center;
