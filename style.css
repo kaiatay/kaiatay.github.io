@@ -78,6 +78,7 @@ section {
   color: inherit;
   text-decoration: none;
   display: block;
+  cursor: pointer;
 }
 
 .project-link:hover h3 {
