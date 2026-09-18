@@ -74,6 +74,16 @@ section {
   text-align: center;
 }
 
+.project-link {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+
+.project-link:hover h3 {
+  text-decoration: underline;
+}
+
 .project img {
   width: 100%;
   height: 200px;
@@ -81,6 +91,25 @@ section {
   object-position: center 30%;
   border-radius: 8px;
 }
+
+.project-header {
+  height: 30vh;
+  background: #333;
+  color: white;
+}
+
+.project-detail {
+  max-width: 800px;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.project-detail img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
 footer {
   text-align: center;
   justify-content: space-evenly;
