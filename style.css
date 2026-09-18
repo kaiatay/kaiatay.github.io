@@ -74,6 +74,16 @@ section {
   text-align: center;
 }
 
+.project-link {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+
+.project-link:hover h3 {
+  text-decoration: underline;
+}
+
 .project img {
   width: 100%;
   height: 200px;
