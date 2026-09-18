@@ -142,3 +142,62 @@ footer {
   padding: 2rem;
   background: #f4f4f4;
 }
+
+@media (max-width: 600px) {
+
+  header h1 {
+    font-size: 2.8rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  nav {
+    font-size: 0.85rem;
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  section {
+    width: 95%;
+    padding: 0 0.5rem;
+  }
+
+  .project-row {
+    gap: 0.75rem;
+  }
+
+  .project {
+    flex: 1 1 90px;
+    max-width: 110px;
+  }
+
+  .project img {
+    height: 90px;
+  }
+
+  .project h3 {
+    font-size: 0.75rem;
+    margin: 0.4rem 0;
+  }
+
+  .project p {
+    display: none;
+  }
+
+  .project-header h1 {
+    font-size: 1.6rem;
+  }
+
+  .back-link svg {
+    width: 22px;
+    height: 22px;
+  }
+
+  .social-links svg {
+    width: 22px;
+    height: 22px;
+  }
+
+}
