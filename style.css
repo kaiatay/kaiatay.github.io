@@ -95,6 +95,9 @@ section {
 .project-header {
   height: 30vh;
   background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
 }
 
