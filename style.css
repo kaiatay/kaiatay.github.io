@@ -143,6 +143,13 @@ footer {
   background: #f4f4f4;
 }
 
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 1rem;
+}
+
 @media (max-width: 600px) {
 
   header h1 {
