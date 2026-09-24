@@ -3,24 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Drone Project — Kai Taylor</title>
+  <title>FPV Drone Design and Build — Kai Taylor</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header class="project-header">
-    <h1>Drone Project</h1>
+    <h1>FPV Drone Design and Build</h1>
   </header>
 
   <section class="project-detail">
-    <img src="drone.jpg" alt="Drone project">
-    <p>Full write-up of the project goes here — what it was, your role, tools/skills used, challenges, outcomes.</p>
+    <p class="meta">Independent Project — Summer 2025 – Present</p>
+
+    <p>After completing coursework in aerospace structures and fluid dynamics, I applied key design and analysis principles to the development of a custom-built First Person View (FPV) drone. Built on a 5-inch carbon fiber frame, the aircraft uses a HGLRC 60A 4-in-1 ESC/Flight Controller stack, 2300 KV brushless motors, and a CaddxFPV Ant camera. It runs the ExpressLRS open-source radio protocol for low-latency, long-range control and a 250–800 mW SpeedyBee video transmitter for real-time feedback to SkyZone Cobra box goggles. Every subsystem was soldered, calibrated, and tested for flight stability and reliable image/control transmission.</p>
+
+    <h2>Electrical Integration</h2>
+    <ul>
+      <li>Soldered and tested all electrical connections between the ESC, flight controller, motors, receiver, battery leads, filtering capacitor, and VTX</li>
+      <li>Diagnosed and corrected voltage supply errors that damaged the first VTX during early building</li>
+      <li>Researched radio and video telemetry protocols, transmission procedures, and gigahertz-frequency signal properties</li>
+      <li>Studied accelerometer and gyroscope applications beyond standard UAS use</li>
+    </ul>
+
+    <h2>Mechanical Design & Assembly</h2>
+    <ul>
+      <li>Used OnShape CAD to design and 3D-print form-fit components for nonstandard frame dimensions</li>
+      <li>Developed custom mounts for a cloverleaf LHCP antenna, GoPro housing, and battery cable routing</li>
+      <li>Machined properly spaced holes in the prefabricated frame and used vibration-dampening methods to stabilize the VTX and camera assembly</li>
+    </ul>
+
+    <h2>Flight Readiness & Certification</h2>
+    <ul>
+      <li>Calibrated flight controls and tuned PID parameters for responsive handling</li>
+      <li>Researched FAA regulations for UAS operation and began work toward FAA TRUST and Part 107 certification, strictly abiding by visual-line-of-sight (VLOS) rules</li>
+    </ul>
+
+    <div class="detail-images">
+      <img src="drone-flight.jpg" alt="Drone in flight">
+      <img src="drone-mount.jpg" alt="Camera mount replacement process">
+      <img src="drone-assembled.jpg" alt="Fully assembled drone">
+    </div>
+    <p class="image-caption">Left to right: Drone in flight, camera mount replacement process, fully assembled drone.</p>
+
+    <p>Sample flight footage: <a href="https://youtu.be/vVl2MMHaQoQ" target="_blank" rel="noopener noreferrer">youtu.be/vVl2MMHaQoQ</a></p>
+
     <a href="index.html" class="back-link" aria-label="Back to portfolio">
-  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <line x1="19" y1="12" x2="5" y2="12"></line>
-    <polyline points="12 19 5 12 12 5"></polyline>
-  </svg>
-</a>
+      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="19" y1="12" x2="5" y2="12"></line>
+        <polyline points="12 19 5 12 12 5"></polyline>
+      </svg>
+    </a>
   </section>
 
 </body>
