@@ -196,6 +196,61 @@ footer {
   margin-top: 1rem;
 }
 
+.project-detail .meta {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.project-detail h2 {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.project-detail h3 {
+  font-size: 1.05rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-detail ul {
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.project-detail li {
+  margin-bottom: 0.5rem;
+}
+
+.detail-images {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 1.5rem 0 0.5rem;
+}
+
+.detail-images img {
+  flex: 1 1 200px;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.image-caption {
+  font-size: 0.85rem;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .detail-images img {
+    height: 140px;
+  }
+}
+
 @media (max-width: 600px) {
 
   header h1 {
