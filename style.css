@@ -146,6 +146,23 @@ section {
   margin-bottom: 1rem;
 }
 
+.project-detail img.float-img {
+  float: right;
+  width: 140px;
+  margin: 0 0 1rem 1.5rem;
+  border-radius: 8px;
+}
+
+.project-detail .float-img-caption {
+  float: right;
+  width: 140px;
+  clear: right;
+  margin: -0.5rem 0 1rem 1.5rem;
+  font-size: 0.75rem;
+  color: #666;
+  font-style: italic;
+}
+
 .inprogress-row {
   display: flex;
   justify-content: center;
