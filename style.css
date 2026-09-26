@@ -245,6 +245,32 @@ footer {
   margin-bottom: 1.5rem;
 }
 
+.float-img {
+  float: right;
+  width: 260px;
+  margin: 0 0 1rem 1.5rem;
+  border-radius: 8px;
+}
+
+.float-img-caption {
+  float: right;
+  width: 260px;
+  clear: right;
+  margin: -1rem 0 1rem 1.5rem;
+  font-size: 0.8rem;
+  color: #666;
+  font-style: italic;
+}
+
+@media (max-width: 600px) {
+  .float-img,
+  .float-img-caption {
+    float: none;
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
+
 @media (max-width: 600px) {
   .detail-images img {
     height: 140px;
